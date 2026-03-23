@@ -1,0 +1,39 @@
+:root {
+  --bg-primary: 0 0% 100%;
+  --bg-secondary: 0 0% 96%;
+  --bg-tertiary: 0 0% 92%;
+  
+  --accent-primary: 0 0% 0%;
+  --accent-secondary: 0 0% 20%;
+  
+  --text-primary: 0 0% 10%;
+  --text-secondary: 0 0% 30%;
+  --text-muted: 0 0% 50%;
+  
+  --border-color: 0 0% 85%;
+  --glass-bg: rgba(255, 255, 255, 0.9);
+  --glass-border: rgba(0, 0, 0, 0.1);
+  
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 20px;
+
+  font-family: 'Inter', system-ui, sans-serif;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  min-height: 100vh;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+#root { flex: 1; display: flex; flex-direction: column; }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: #aaa; border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
